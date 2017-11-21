@@ -3,7 +3,7 @@ window.onload = function(){
   var currentMode = 'portrait';
   var output = document.getElementById('output');
 
-  var milkcocoa = MilkCocoa.connectWithApiKey('teaja1vzayz.mlkcca.com', 'MEGDPFGCGBGJIJLL', 'hifjRNRjgIcZDcjQjhnnLmVjPJLOVBEJLaLRmBni    ');
+  var milkcocoa = MilkCocoa.connectWithApiKey('teaja1vzayz.mlkcca.com', 'MEGDPFGCGBGJIJLL', 'hifjRNRjgIcZDcjQjhnnLmVjPJLOVBEJLaLRmBni');
   var ds = milkcocoa.dataStore('gravity');
 
   window.addEventListener('devicemotion', function(e){
